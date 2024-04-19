@@ -8,7 +8,7 @@ npm install emote
 
 ## 2. Creating Emote Comments Section Component
 
-Create or add a new file in your choice of framework as a container element as HTML. 
+Create or add a new file in your choice of framework as a container element as HTML.
 
 Use a container tag; as the script is deferred and imported. In my example, I use TailwindCSS classes for layout and styling as shown, but you can create custom classes or design the container to fit your project needs.
 
@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
   new Emote('emote_com');
 });
 ```
+
 ### JXS, TSX, and .astro usage example
 
 ```JSX
@@ -45,6 +46,6 @@ import Emote from 'emote';
 
 ### Handling Multiple Instances, Script-Handeling, and Re-Initialization
 
-If your script or component may be instantiated multiple times on the same page, ensure your script loading mechanism checks if the script is already present or loaded to avoid loading it multiple times. 
+If your script or component may be instantiated multiple times on the same page, ensure your script loading mechanism checks if the script is already present or loaded to avoid loading it multiple times.
 
 If you add additional script handeling or asynchrinization to your component or page, it's likely to affect the scripts deferred loading. You'll want to opt that component or tag out of any additional rules or project-wide script loading mechanisms to avoid conflicts.
