@@ -1,20 +1,24 @@
 {
-  "name": "emote-npm",
+  "name": "emote",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ezoic-marketing/emote-npm.git"
   },
   "private": false,
   "version": "1.0.0",
-  "description": "A simple npm node integration for emote comments",
+  "description": "A simple npm node integration for customizable emote comments and comments sections",
   "type": "module",
-  "main": "emoteJsSnippet.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "test",
-    "start": "node emoteJsSnippet.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "emote"
+    "emote",
+    "web comments",
+    "comments section",
+    "ui",
+    "free comments",
+    "web component"
   ],
   "author": "Ezoic",
   "license": "ISC"
