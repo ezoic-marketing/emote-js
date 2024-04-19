@@ -1,6 +1,6 @@
 // src/index.js
 
-class Emote {
+class EmoteComments {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
     if (!window.emoteLoaded) {
@@ -29,4 +29,4 @@ class Emote {
   }
 }
 
-export default Emote;
+export default EmoteComments;

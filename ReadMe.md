@@ -3,7 +3,7 @@
 ## 1. Installation
 
 ```bash
-npm install emote
+npm install emote-comments
 ```
 
 ## 2. Creating Emote Comments Section Component
@@ -27,7 +27,7 @@ Since Emote uses a deferred script, we reccomend importing it or the component t
 
 ```Javascript
 // YourPage.js
-import Emote from 'emote';
+import Emote from 'emote-comments';
 
 document.addEventListener('DOMContentLoaded', () => {
   new Emote('emote_com');
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ```JSX
 // YourPage.(jsx/tsx/astro)
-import Emote from 'emote';
+import Emote from 'emote-comments';
 ...
 // location of comments section component
 <Emote />
