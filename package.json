@@ -18,7 +18,12 @@
     "comments section",
     "ui",
     "free comments",
-    "web component"
+    "web component",
+    "astro-component",
+    "withastro",
+    "React",
+    "Nextjs",
+    "Tsx"
   ],
   "author": "ezoic_marketing",
   "license": "ISC"
