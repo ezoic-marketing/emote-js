@@ -1,5 +1,11 @@
 # Emote Component
 
+## Pre-Req: Free Emote Account
+
+### Create an Account on Emote.com
+
+Go to [emote.com](https://emote.com) and create an account for your domain. It's easy, takes less than 1 minute, and is required for domains using Emote. This is also where you can manage moderation rules, settings, and import/export your data.
+
 ## 1. Installation
 
 ```bash
